@@ -7,6 +7,7 @@ public class Car
     public double CurrentFuelLevel { get; private set; }
     public int Speed { get; private set; }
 
+
     public Car(int speed, int fuelCapacity, double currentFuelLevel, double averageFuelConsumtion)
     {
         Speed = speed;
@@ -15,17 +16,20 @@ public class Car
         AverageFuelConsumtion = averageFuelConsumtion;
     }
 
-  
+
+
+
 
     public virtual double GetRemainDistance(bool calculateForFullCapacity)
     {
         if (calculateForFullCapacity)
         {
-            return FuelCapacity / AverageFuelConsumtion*100;
+            return FuelCapacity / AverageFuelConsumtion * 100;
         }
         else
         {
-            return CurrentFuelLevel / AverageFuelConsumtion*100;
+            return CurrentFuelLevel / AverageFuelConsumtion * 100;
         }
     }
+
 }
