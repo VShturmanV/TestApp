@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarFuelCalc", "TestApp\CarFuelCalc.csproj", "{1A76F43D-47A8-4564-9B0D-46F2DA937E9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarFuelCalc.Data", "CarFuelCalc.Data\CarFuelCalc.Data.csproj", "{470A81FD-7709-4B99-A8CA-864D53802EED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1A76F43D-47A8-4564-9B0D-46F2DA937E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A76F43D-47A8-4564-9B0D-46F2DA937E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A76F43D-47A8-4564-9B0D-46F2DA937E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470A81FD-7709-4B99-A8CA-864D53802EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470A81FD-7709-4B99-A8CA-864D53802EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470A81FD-7709-4B99-A8CA-864D53802EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470A81FD-7709-4B99-A8CA-864D53802EED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
